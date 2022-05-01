@@ -16,4 +16,4 @@
       <li> ./test localhost
       <li> You can run the test cuple of times and then connect with the client to see how much 'POP' you can make.
      
-the implement of 'malloc' and 'free' took from "André Carvalho" (medium.com).
+the implement of 'malloc' and 'free' helped by "André Carvalho" (medium.com).

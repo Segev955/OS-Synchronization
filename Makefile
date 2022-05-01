@@ -9,7 +9,7 @@ test: server.o test.o
 server: server.o
 	gcc -o server server.o -lpthread
 
-server.o: server.c synchronization.h
+server.o: server.c synchronization.h myMalloc.o
 	gcc -c server.c
 	
 client.o: client.c synchronization.h
@@ -17,6 +17,6 @@ client.o: client.c synchronization.h
 	
 test.o: test.c synchronization.h
 	gcc -c test.c
-	
+		
 clean:
 	rm -f *.o client server test

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <malloc.h>
 #include <string.h>
-#include "Process.h"
+
 
 typedef struct Stack {
     char stack[1024];
@@ -86,7 +86,7 @@ int main() {
             top(&head);
         }
         else if (checkSUB("STOP", text)) {
-            printf("See Ya");
+            printf("See Ya\n");
             return 1;
         }
     }
